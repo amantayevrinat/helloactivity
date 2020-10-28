@@ -8,7 +8,7 @@ import android.widget.Button
 import kz.hello.presentation.HelloActivity
 import android.util.Log.d as d1
 
-private const val TAG = "MainActivity"
+private const val TAG = "MainActivityON"
 class MainActivity : AppCompatActivity() {
 
     private val openHelloButton:Button by lazy {
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.d(TAG, "onStaaaart")
+        Log.d(TAG, "onStart")
     }
 
     override fun onResume() {
